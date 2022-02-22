@@ -4,7 +4,7 @@
   "description": "A procedurally generated collection of NFT trees",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "TS_NODE_TRANSPILE_ONLY=1 npx hardhat test"
   },
   "author": "Javier Pozzi",
   "license": "MIT",
